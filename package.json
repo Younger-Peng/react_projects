@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "normalize.css": "^6.0.0",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   },
-  "homepage":"https://younger-peng.github.io/react_projects/build",
+  "homepage": "https://younger-peng.github.io/react_projects/build",
   "devDependencies": {
     "react-scripts": "0.9.5"
   },
