@@ -1,4 +1,6 @@
 .TodoItem{
+	margin-bottom: .5em;
+	border-left: 5px solid #6c81e6;
 	padding: .5em;
 	display: flex;
 	align-items: center;
@@ -15,6 +17,7 @@
 	visibility: hidden;
 	width: 30px;
 	height: 20px;
+	cursor: pointer;
 }
 .TodoItem>input:checked:after {
 	visibility: visible;
@@ -35,10 +38,14 @@
 	background-size: contain;
 }
 .TodoItem>button {
-	outline: none;
-	border: none;
-	background: transparent;
+	width: 40px;
+  height: 30px;
+  outline: none;
+  border-radius: 5px;
+  background: transparent;
+  border-style: solid;
+	cursor: pointer;
 }
 .TodoItem>button:hover {
-	color: red;
+	border: 3px solid #aaa;
 }
