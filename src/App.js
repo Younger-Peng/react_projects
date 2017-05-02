@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import TodoInput from './TodoInput'
 import TodoItem from './TodoItem'
@@ -13,10 +12,6 @@ class App extends Component {
       newTodo: '',
       todoList: localStore.load("todoList") || []
     }
-  }
-
-  componentDidUpdate(){
-    console.log(this.state.todoList)
   }
   render() {
     let todos = this.state.todoList
