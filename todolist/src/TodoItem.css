@@ -1,0 +1,13 @@
+.TodoItem{
+	padding: .5em;
+	display: flex;
+	align-items: center;
+}
+.TodoItem>.title{
+	flex: 1;
+	padding: .5em;
+}
+.TodoItem>input:checked~span {
+	color: #aaa;
+	text-decoration: line-through;
+}
